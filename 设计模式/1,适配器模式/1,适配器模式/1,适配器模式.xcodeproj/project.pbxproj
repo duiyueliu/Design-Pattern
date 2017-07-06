@@ -13,6 +13,13 @@
 		A10E6C201F0E945E005B13F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10E6C1E1F0E945E005B13F2 /* Main.storyboard */; };
 		A10E6C221F0E945E005B13F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10E6C211F0E945E005B13F2 /* Assets.xcassets */; };
 		A10E6C251F0E945E005B13F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10E6C231F0E945E005B13F2 /* LaunchScreen.storyboard */; };
+		A10E6C2E1F0E950C005B13F2 /* MBCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10E6C2D1F0E950C005B13F2 /* MBCardView.m */; };
+		A10E6C301F0E951D005B13F2 /* MBCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10E6C2F1F0E951D005B13F2 /* MBCardView.xib */; };
+		A10E6C341F0E9727005B13F2 /* ManModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A10E6C331F0E9727005B13F2 /* ManModel.m */; };
+		A10E6C381F0E98AD005B13F2 /* MBCardViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A10E6C371F0E98AD005B13F2 /* MBCardViewAdapter.m */; };
+		A10E6C3B1F0E9A7A005B13F2 /* ManModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A10E6C3A1F0E9A7A005B13F2 /* ManModelAdapter.m */; };
+		A10E6C3E1F0E9D05005B13F2 /* WomanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A10E6C3D1F0E9D05005B13F2 /* WomanModel.m */; };
+		A10E6C411F0E9D42005B13F2 /* WomanModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A10E6C401F0E9D42005B13F2 /* WomanModelAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		A10E6C211F0E945E005B13F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10E6C241F0E945E005B13F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A10E6C261F0E945E005B13F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10E6C2C1F0E950C005B13F2 /* MBCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCardView.h; sourceTree = "<group>"; };
+		A10E6C2D1F0E950C005B13F2 /* MBCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCardView.m; sourceTree = "<group>"; };
+		A10E6C2F1F0E951D005B13F2 /* MBCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBCardView.xib; sourceTree = "<group>"; };
+		A10E6C321F0E9727005B13F2 /* ManModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManModel.h; path = adapter/ManModel.h; sourceTree = "<group>"; };
+		A10E6C331F0E9727005B13F2 /* ManModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManModel.m; path = adapter/ManModel.m; sourceTree = "<group>"; };
+		A10E6C351F0E979E005B13F2 /* MBCardViewAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBCardViewAdapterProtocol.h; path = adapter/MBCardViewAdapterProtocol.h; sourceTree = "<group>"; };
+		A10E6C361F0E98AD005B13F2 /* MBCardViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBCardViewAdapter.h; path = adapter/MBCardViewAdapter.h; sourceTree = "<group>"; };
+		A10E6C371F0E98AD005B13F2 /* MBCardViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBCardViewAdapter.m; path = adapter/MBCardViewAdapter.m; sourceTree = "<group>"; };
+		A10E6C391F0E9A7A005B13F2 /* ManModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManModelAdapter.h; sourceTree = "<group>"; };
+		A10E6C3A1F0E9A7A005B13F2 /* ManModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManModelAdapter.m; sourceTree = "<group>"; };
+		A10E6C3C1F0E9D05005B13F2 /* WomanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomanModel.h; sourceTree = "<group>"; };
+		A10E6C3D1F0E9D05005B13F2 /* WomanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomanModel.m; sourceTree = "<group>"; };
+		A10E6C3F1F0E9D42005B13F2 /* WomanModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomanModelAdapter.h; sourceTree = "<group>"; };
+		A10E6C401F0E9D42005B13F2 /* WomanModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomanModelAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,20 @@
 				A10E6C191F0E945E005B13F2 /* AppDelegate.m */,
 				A10E6C1B1F0E945E005B13F2 /* ViewController.h */,
 				A10E6C1C1F0E945E005B13F2 /* ViewController.m */,
+				A10E6C321F0E9727005B13F2 /* ManModel.h */,
+				A10E6C331F0E9727005B13F2 /* ManModel.m */,
+				A10E6C391F0E9A7A005B13F2 /* ManModelAdapter.h */,
+				A10E6C3A1F0E9A7A005B13F2 /* ManModelAdapter.m */,
+				A10E6C3C1F0E9D05005B13F2 /* WomanModel.h */,
+				A10E6C3D1F0E9D05005B13F2 /* WomanModel.m */,
+				A10E6C3F1F0E9D42005B13F2 /* WomanModelAdapter.h */,
+				A10E6C401F0E9D42005B13F2 /* WomanModelAdapter.m */,
+				A10E6C2C1F0E950C005B13F2 /* MBCardView.h */,
+				A10E6C2D1F0E950C005B13F2 /* MBCardView.m */,
+				A10E6C2F1F0E951D005B13F2 /* MBCardView.xib */,
+				A10E6C351F0E979E005B13F2 /* MBCardViewAdapterProtocol.h */,
+				A10E6C361F0E98AD005B13F2 /* MBCardViewAdapter.h */,
+				A10E6C371F0E98AD005B13F2 /* MBCardViewAdapter.m */,
 				A10E6C1E1F0E945E005B13F2 /* Main.storyboard */,
 				A10E6C211F0E945E005B13F2 /* Assets.xcassets */,
 				A10E6C231F0E945E005B13F2 /* LaunchScreen.storyboard */,
@@ -140,6 +175,7 @@
 				A10E6C251F0E945E005B13F2 /* LaunchScreen.storyboard in Resources */,
 				A10E6C221F0E945E005B13F2 /* Assets.xcassets in Resources */,
 				A10E6C201F0E945E005B13F2 /* Main.storyboard in Resources */,
+				A10E6C301F0E951D005B13F2 /* MBCardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +188,13 @@
 			files = (
 				A10E6C1D1F0E945E005B13F2 /* ViewController.m in Sources */,
 				A10E6C1A1F0E945E005B13F2 /* AppDelegate.m in Sources */,
+				A10E6C3E1F0E9D05005B13F2 /* WomanModel.m in Sources */,
 				A10E6C171F0E945E005B13F2 /* main.m in Sources */,
+				A10E6C2E1F0E950C005B13F2 /* MBCardView.m in Sources */,
+				A10E6C341F0E9727005B13F2 /* ManModel.m in Sources */,
+				A10E6C381F0E98AD005B13F2 /* MBCardViewAdapter.m in Sources */,
+				A10E6C411F0E9D42005B13F2 /* WomanModelAdapter.m in Sources */,
+				A10E6C3B1F0E9A7A005B13F2 /* ManModelAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
